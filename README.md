@@ -12,7 +12,7 @@ Paste the following code into the `<body>` of the HTML file.
 <div id="boy-bands">
 </div>`
 
-`<div id="vegetables">
+<div id="vegetables">
 </div>
 ```
 
