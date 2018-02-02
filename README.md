@@ -8,15 +8,18 @@ To use JS to update DOM elements
 ### Requirements
 Paste the following code into the `<body>` of the HTML file.
 
-```<div id="boy-bands">
+```
+<div id="boy-bands">
 </div>`
 
 `<div id="vegetables">
-</div>```
+</div>
+```
 
 Paste the following code into your JavaScript file.
 
-`let bands = ["Boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
+```
+let bands = ["Boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
 let vegetables = ["Carrots", "Kale", "Zucchini", "Broccoli", "Squash"];
 
 // Get a reference to the appropriate DOM element for bands
@@ -37,6 +40,7 @@ for (let loopTracker = 0; loopTracker < ???; loopTracker += 1) {
   const currentVeggie = ???;
 
   // Update the innerHTML value of the DOM element for vegetables
-}`
+}
+```
 
 Update the code to iterate the two arrays provided (bands and vegetables) and output each element in the arrays into their corresponding HTML `<div>` element. Ensure that each item is in a block element (e.g. li, div, p, etc...)
