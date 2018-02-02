@@ -8,11 +8,11 @@ To use JS to update DOM elements
 ### Requirements
 Paste the following code into the `<body>` of the HTML file.
 
-`<div id="boy-bands">
+```<div id="boy-bands">
 </div>`
 
 `<div id="vegetables">
-</div>`
+</div>```
 
 Paste the following code into your JavaScript file.
 
